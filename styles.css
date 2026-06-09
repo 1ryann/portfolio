@@ -587,7 +587,7 @@ h3 {
 }
 
 .about-copy p {
-  max-width: 76ch;
+  max-width: 125ch;
   margin-bottom: 0;
   color: var(--text);
   font-size: 1.06rem;
