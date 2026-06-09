@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ryan Oliveira | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio visual de Ryan Oliveira com telas de sistemas web, portaria digital e suporte interno."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Inicio do portfolio">
+        <span class="brand-icon">&gt;</span>
+        <span>RYAN</span>
+      </a>
+      <nav aria-label="Navegacao principal">
+        <a href="#projetos">Projetos</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+      <a class="contact-link" href="mailto:ryanoliveira1728@gmail.com">Contato</a>
+    </header>
+
+    <main class="portfolio-shell">
+      <section class="masthead" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="label">Web Developer</p>
+          <h1 id="page-title">Ryan Oliveira</h1>      
+          <div class="hero-actions">
+            <a href="#projetos">Ver projetos</a>
+            <a href="#sobre">Sobre mim</a>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="anime-window anime-window-main">
+            <div class="window-dots">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <pre>const ae86 = {
+  model: "Trueno AE86",
+  route: "Akina downhill",
+  soundtrack: "eurobeat",
+  mood: "Initial D"
+};</pre>
+          </div>
+
+          <div class="anime-window anime-window-side">
+            <div class="window-dots">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <pre>&lt;night-run car="AE86" /&gt;
+&lt;pass name="Akina" /&gt;
+&lt;mode value="drift" /&gt;</pre>
+          </div>
+
+          <div class="anime-badge"><\></div>
+        </div>
+      </section>
+
+      <section class="showcase" id="projetos" aria-label="Projetos">
+        <div class="system-tabs" id="system-tabs" aria-label="Selecionar sistema"></div>
+        <div class="carousel-panel">
+          <button class="edge-arrow edge-arrow-left" type="button" data-direction="prev" aria-label="Voltar imagens">
+            <span aria-hidden="true">&lt;</span>
+          </button>
+          <div class="carousel" id="carousel" tabindex="0" aria-label="Imagens do sistema selecionado"></div>
+          <button class="edge-arrow edge-arrow-right" type="button" data-direction="next" aria-label="Avancar imagens">
+            <span aria-hidden="true">&gt;</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="about" id="sobre" aria-labelledby="about-title">
+        <p class="label">Sobre mim</p>
+        <div class="about-copy">
+          <p id="about-title">
+            Sou o Ryan. Gosto de transformar processos confusos em telas diretas, organizadas e faceis de usar no dia a dia.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-title">
+      <button class="close-button" type="button" aria-label="Fechar">x</button>
+      <img id="lightbox-image" alt="">
+      <div class="lightbox-caption">
+        <h3 id="lightbox-title"></h3>
+      </div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
